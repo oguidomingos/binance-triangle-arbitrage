@@ -1,21 +1,21 @@
 {
 
     "KEYS": {
-        "API": "",
-        "SECRET": ""
+        "API": "KWBROTGGRGyUVPckdEUzJmW8VLZNKdCX7WwGkH8U6It4mBnjAQ3wYIpiisSlf1SD",
+        "SECRET": "kSFdDHmeuhAedNZjnmI7unUwaQDjZqjoVi5LHleQm2XKmE4aqpOU8a1CN2EoEIjA"
     },
 
     "INVESTMENT": {
         "BTC": {
-            "MIN": 0.010,
-            "MAX": 0.015,
-            "STEP": 0.005
+            "MIN": 0.000014,
+            "MAX": 0.000071,
+            "STEP": 0.0000071
         }
     },
 
     "SCANNING": {
         "DEPTH": 50,
-        "WHITELIST": []
+        "WHITELIST": [BTC, ETH, ADA, DOGE, MAVIC]
     },
 
     "EXECUTION": {
@@ -25,7 +25,7 @@
         "TEMPLATE": ["BUY", "SELL", "SELL"],
         "FEE": 0.075,
         "THRESHOLD": {
-            "PROFIT": 0.00,
+            "PROFIT": 0.30,
             "AGE": 25
         }
     },
